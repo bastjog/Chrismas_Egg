@@ -1,0 +1,23 @@
+.body {
+    padding: 0;
+    margin: 0;  
+}
+
+
+.hashimoto, .text_hashimoto, .hintsButton, .hashimoto_form {
+    display: flex;
+    justify-content: center;
+}
+
+.hintsButton, .hashimoto_form {
+    padding-top: 1%;
+}
+
+#page-structure{
+    height: 100vh;
+}
+  
+.header-text {
+     font-family: Helvetica, Arial, "Lucida Grande", sans-serif !important;
+     font-weight: 900 !important;
+}
