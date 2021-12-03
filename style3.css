@@ -1,0 +1,14 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+#moveButton {
+    display: flex;
+    position: relative;
+}
+
+#message {
+    display: none;
+    justify-content: center;
+}

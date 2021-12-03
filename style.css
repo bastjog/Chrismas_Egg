@@ -13,3 +13,12 @@
     padding-top: 1%;
 }
 
+.lien {
+  display: none;
+  justify-content: center;
+}
+
+.lien2 {
+  color: white;
+  font-size: large;
+}

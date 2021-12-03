@@ -9,6 +9,9 @@ function popupHelp() {
 function popupHelp2() {
     alert("Indice : Code Konami");
 }
+function popupHelp3() {
+    alert("Indice : essayer de faire un ctrl-a");
+}
 
 var etap1Token = 0;
 
@@ -100,7 +103,8 @@ function codeKonami(){
         for (let i = 1; i < etap2.length; i++) {
             etap2[i].innerHTML="";
         }
-        etap2[0].innerHTML = "<p>Wouah vous avez réussi à trouver le code secret mais, ce n'est pas encore fini que faire maintenant ?</p>"
+        etap2[0].innerHTML = "<p>Wouah vous avez réussi à trouver le code secret mais, ce n'est pas encore fini, que faire maintenant ?</p>"
+        document.getElementById("lien").style.display = "flex";
     }
     else {
         console.log("Garde ça pour le prochain challenge petit coquin");
