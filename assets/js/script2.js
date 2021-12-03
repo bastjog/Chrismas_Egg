@@ -115,7 +115,7 @@ function flood (colour, initial)
 
 function help ()
 {
-    alert ("Press the circle buttons to flood fill the image\n"+
+    alert ("Press the square buttons to flood fill the image\n"+
            "with the colour from the top left corner. Fill the\n"+
            "entire image with the same colour in twenty-five or\n"+
            "fewer flood fills.");

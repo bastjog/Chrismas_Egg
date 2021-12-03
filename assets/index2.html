@@ -2,12 +2,12 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <title>Titre de la page</title>
-  <link rel="stylesheet" href="style2.css">
-  <script src="script2.js"></script>
+  <title>Challenge</title>
+  <link rel="stylesheet" href="css/style2.css">
+  <script src="js/script2.js"></script>
 </head>
-<body>
-    <table>
+<body onload="new_game()">
+    <table class="tableauCentral">
         <tr>
           <td valign="top">
             <table>
@@ -40,12 +40,7 @@
               </tr>
               <tr valign="top">
                 <td valign="top">
-                  <input type="submit" value="New game" onclick="new_game ()">
-                </td>
-              </tr>
-              <tr valign="top">
-                <td valign="top">
-                  <input type="submit" value="Help" onclick="help ()">
+                  <input type="submit" value="Help" onclick="help()">
                 </td>
               </tr>
       <!--

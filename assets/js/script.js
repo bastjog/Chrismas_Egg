@@ -24,7 +24,7 @@ function LoginEtap1(){
         for (let i = 1; i < etap1.length; i++) {
             etap1[i].innerHTML="";
         }
-        etap1[0].innerHTML="<p class='text_hashimoto etap2'> Oh vous êtes donc quelqu'un de cultivé, vous connaissez donc sa prouesse ?</p>";
+        etap1[0].innerHTML="<p class='text_hashimoto etap2'> Oh vous êtes donc quelqu'un de cultivé, vous connaissez donc son cheat ?</p>";
         etap1[2].innerHTML="<div class='etap2'><button onclick='popupHelp2()'>Hints</button></div>";
         document.getElementById("hashimotoId").style.backgroundColor = "red";
         listKey = [];
